@@ -1,0 +1,12 @@
+button.button {
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  padding: 6px 8px;
+  background-color: #97d6fa;
+
+  &:hover {
+    transition: all 150ms ease-in;
+    box-shadow: 0 2px 4px 0 rgba(53, 61, 63, 0.3);
+  }
+}
